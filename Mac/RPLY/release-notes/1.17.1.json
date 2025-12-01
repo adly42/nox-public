@@ -1,10 +1,16 @@
 {
   "version": "1.17.1",
   "features": [
-    "Filter conversations by messaging service, time range, and sort order",
-    "Support for new iMessage group chat format"
+    "Filter conversations by messaging service, time range, and sort order from a new dropdown menu",
+    "Support for new iMessage group chat format",
+    "What's New screen displays release notes after each update",
+    "Loading indicator when generating AI replies",
+    "Upgraded to Claude Sonnet 4.5 for improved reply quality"
   ],
   "fixes": [
-    "Removed confusing Last Sync timestamp from home screen"
+    "Removed confusing \"Last Sync\" timestamp from the home screen",
+    "Fixed AI-generated replies containing formatting issues",
+    "Stats overlay on iMessage now shows only iMessage conversation counts",
+    "Improved app launch performance"
   ]
 }
