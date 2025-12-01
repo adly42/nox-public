@@ -1,0 +1,11 @@
+{
+  "version": "1.17.1",
+  "features": [
+    "Filter conversations by messaging service, time range, and sort order",
+    "Support for new iMessage group chat format"
+  ],
+  "fixes": [
+    "Fixed app icons displaying with white background on iOS",
+    "Removed confusing Last Sync timestamp from home screen"
+  ]
+}
