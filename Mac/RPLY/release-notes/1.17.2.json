@@ -1,0 +1,15 @@
+{
+  "version": "1.17.2",
+  "features": [
+    "New experimental 'Waiting On' feature to see conversations where you're waiting for a response",
+    "Improved Demo Mode with guided walkthrough and better visual indicators",
+    "Background reply pre-generation for faster response times when switching conversations",
+    "Keyboard simulation improvements for the floating window with escape-to-cancel support"
+  ],
+  "fixes": [
+    "Fixed iMessage overlay appearing after free message limit was reached",
+    "Improved app responsiveness by optimizing contacts loading",
+    "Fixed crash during onboarding animation on some displays",
+    "Fixed various conversation list UI issues"
+  ]
+}
