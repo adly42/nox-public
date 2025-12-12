@@ -17,7 +17,7 @@
     ],
     "images": [
       "https://nox-devices.github.io/nox-public/Mac/RPLY/release-notes/media/pr1272_1.jpg",
-      "https://nox-devices.github.io/nox-public/Mac/RPLY/release-notes/media/pr1271_3.jpg"
+      "https://nox-devices.github.io/nox-public/Mac/RPLY/release-notes/media/pr1259_2.jpg"
     ]
   },
   {
@@ -37,8 +37,8 @@
       "Prevented crashes during onboarding caused by display rendering issues"
     ],
     "images": [
-      "https://nox-devices.github.io/nox-public/Mac/RPLY/release-notes/media/pr1237_3.jpg",
-      "https://nox-devices.github.io/nox-public/Mac/RPLY/release-notes/media/pr1237_4.jpg"
+      "https://nox-devices.github.io/nox-public/Mac/RPLY/release-notes/media/pr1237_3.png",
+      "https://nox-devices.github.io/nox-public/Mac/RPLY/release-notes/media/pr1209_10.png"
     ]
   },
   {
@@ -59,7 +59,7 @@
     "images": [
       "https://nox-devices.github.io/nox-public/Mac/RPLY/release-notes/media/pr1240_1.jpg",
       "https://nox-devices.github.io/nox-public/Mac/RPLY/release-notes/media/pr1241_1.jpg",
-      "https://nox-devices.github.io/nox-public/Mac/RPLY/release-notes/media/pr1238_2.jpg"
+      "https://nox-devices.github.io/nox-public/Mac/RPLY/release-notes/media/pr1238_4.jpg"
     ]
   },
   {
@@ -92,8 +92,8 @@
       "Corrected RPLY icon size on macOS Sonoma so it displays consistently with other apps in the Dock and System Settings"
     ],
     "images": [
-      "https://nox-devices.github.io/nox-public/Mac/RPLY/release-notes/media/pr1218_2.jpg",
-      "https://nox-devices.github.io/nox-public/Mac/RPLY/release-notes/media/pr1218_3.jpg"
+      "https://nox-devices.github.io/nox-public/Mac/RPLY/release-notes/media/pr1209_10.png",
+      "https://nox-devices.github.io/nox-public/Mac/RPLY/release-notes/media/pr1209_3.png"
     ]
   },
   {
@@ -260,7 +260,7 @@
       "iMessage contacts stay up-to-date automatically"
     ],
     "images": [
-      "https://nox-devices.github.io/nox-public/Mac/RPLY/release-notes/media/pr1074_1.jpg"
+      "https://nox-devices.github.io/nox-public/Mac/RPLY/release-notes/media/pr1074_1.png"
     ]
   },
   {
