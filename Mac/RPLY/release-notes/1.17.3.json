@@ -1,11 +1,11 @@
 {
-    "version": "1.17.3",
-    "features": [],
-    "fixes": [
-      "Fixed duplicate messages appearing when sharing links",
-      "Fixed image message bubble layout issues",
-      "Fixed UI elements shifting during reply generation",
-      "Improved scrolling performance and reduced CPU usage",
-      "Fixed several crashes caused by concurrent operations"
-    ]
-  }
+  "version": "1.17.3",
+  "features": [],
+  "fixes": [
+    "Fixed duplicate messages appearing when sharing links",
+    "Fixed image message bubble layout issues",
+    "Fixed UI elements shifting during reply generation",
+    "Improved scrolling performance and reduced CPU usage",
+    "Fixed several crashes caused by concurrent operations"
+  ]
+}

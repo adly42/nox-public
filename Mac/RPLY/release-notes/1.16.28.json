@@ -1,0 +1,17 @@
+{
+  "version": "1.16.28",
+  "date": "2025-11-27",
+  "title": "Smoother, Faster, More Reliable",
+  "description": "This release focuses on polish and performance. We've fixed several bugs affecting contact names in onboarding, improved reply generation reliability, and made the app significantly more responsive with single-click editing and better keyboard navigation. Plus, we've eliminated performance issues that were draining your battery.",
+  "features": [
+    "Single-click now focuses the reply composer instantly—no more double-clicking to start typing",
+    "Double-click any conversation to expand it, plus improved keyboard navigation with consistent Escape key behavior",
+    "Dramatically reduced CPU usage by fixing an animation issue that was constantly using processing power in the background"
+  ],
+  "fixes": [
+    "Fixed missing contact names and photos during onboarding and throughout the app",
+    "Reply generation progress indicator now disappears properly when AI replies fail",
+    "Resolved issue where very long messages (3,200+ characters) would cause the app to get stuck processing embeddings",
+    "Fixed bug where the reply composer could show a permanent loading state"
+  ]
+}

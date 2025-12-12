@@ -1,0 +1,19 @@
+{
+  "version": "1.16.21",
+  "date": "2025-11-13",
+  "title": "Reactions on Mac, Performance Boost & Better Sync",
+  "description": "This release brings native tapback reactions to macOS—now you can react to messages with hearts, thumbs up, and custom emoji just like on iOS! We've also dramatically reduced CPU usage for a snappier experience and fixed several CloudKit sync issues to keep your messages flowing smoothly.",
+  "features": [
+    "React to messages on macOS with hearts, thumbs up/down, laughs, and custom emoji—fully synced with iMessage",
+    "Dismiss chats individually from the 'No response needed' section instead of only dismissing all at once",
+    "AI responses now include temporal awareness for more contextually relevant replies"
+  ],
+  "fixes": [
+    "Massively reduced CPU usage by optimizing menu bar button and limiting shimmer animations",
+    "Fixed CloudKit message sync creating false conflicts and duplicate uploads",
+    "Fixed subscription attribution and referral codes not working properly on Mac",
+    "Fixed send button icon being invisible on iOS",
+    "Fixed group chats not opening properly from Messages and conversation view loading issues",
+    "Fixed repo setup issues for new developers"
+  ]
+}

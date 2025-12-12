@@ -1,0 +1,14 @@
+{
+  "version": "1.16.29",
+  "date": "2025-11-27",
+  "title": "Better Insights, Smoother Experience",
+  "description": "Dive deeper into your messaging patterns with the new expandable Friends Graph that shows more contacts in a dedicated window. We've also fixed issues that were causing duplicate messages on iOS and made the app icon look pixel-perfect on macOS Sonoma.",
+  "features": [
+    "Friends Graph now opens in a resizable window showing your top 10 most-messaged contacts with improved performance",
+    "Enhanced chart tooltips that follow your cursor for easier reading"
+  ],
+  "fixes": [
+    "Fixed duplicate messages being sent from conversation cards on iOS",
+    "App icon now displays at the correct size in the Dock and System Settings on macOS Sonoma"
+  ]
+}

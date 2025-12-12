@@ -1,0 +1,14 @@
+{
+  "version": "1.16.24",
+  "date": "2025-11-17",
+  "title": "Media Viewer & Stability Boost",
+  "description": "We've made viewing your photos and videos easier than ever! Double-click any image or video in your conversations to open it in a full, distraction-free viewer. Plus, we've squashed several bugs to make RPLY more stable and reliable.",
+  "features": [
+    "Double-click images and videos to open them in a dedicated full-screen viewer for better focus and clarity"
+  ],
+  "fixes": [
+    "Fixed app crashes that could occur when scrolling through conversations",
+    "Resolved an issue where duplicate NOX contacts could appear in your contact list",
+    "Improved overall app performance and stability"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "version": "1.16.19",
+  "date": "2025-10-30",
+  "title": "Calendar Sharing & Stability Improvements",
+  "description": "We've added the ability to automatically send calendar events in your messages, making it easier to coordinate and share schedules. This release also includes important reliability improvements and better crash reporting to help us keep RPLY running smoothly.",
+  "features": [
+    "Auto-send calendar events in your conversations for seamless scheduling",
+    "Improved crash reporting to help us fix issues faster"
+  ],
+  "fixes": [
+    "Fixed cursor popup flickering when hovering quickly over messages",
+    "Resolved issue where the floating window wouldn't follow your active conversation",
+    "Improved app stability and performance under the hood"
+  ]
+}

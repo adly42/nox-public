@@ -1,0 +1,16 @@
+{
+  "version": "1.17.0",
+  "date": "2025-11-29",
+  "title": "Smarter AI & Lightning-Fast Performance",
+  "description": "RPLY just got a major brain upgrade! We've switched to Claude Sonnet 4.5 for significantly better AI-generated replies that sound more natural and helpful. Plus, the app now launches faster than ever, getting you to your conversations in a fraction of the time.",
+  "features": [
+    "Upgraded to Claude Sonnet 4.5 AI model for higher-quality, more natural message suggestions",
+    "Added a loading indicator so you know exactly when AI replies are being generated",
+    "Dramatically faster app launch—your conversations appear almost instantly"
+  ],
+  "fixes": [
+    "Fixed AI replies containing unwanted formatting and line breaks",
+    "iMessage stats panel now correctly shows only iMessage conversation counts (not all platforms)",
+    "Improved analytics tracking for better app insights"
+  ]
+}

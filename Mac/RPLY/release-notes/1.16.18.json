@@ -1,0 +1,15 @@
+{
+  "version": "1.16.18",
+  "date": "2025-10-26",
+  "title": "Smoother Typing & Smarter Conversations",
+  "description": "We've made typing feel more natural and your conversation list cleaner. This update fixes annoying text editing quirks and intelligently filters out conversations you don't need to see, so you can focus on what matters most.",
+  "features": [
+    "Smarter conversation filtering automatically hides empty chats and messages you've sent",
+    "Improved device connectivity monitoring keeps you better connected across all your devices"
+  ],
+  "fixes": [
+    "Fixed text jumping and disappearing spaces while typing messages",
+    "Fixed app icon issues that could prevent iOS app updates",
+    "Resolved settings sync issues when making changes on multiple devices at once"
+  ]
+}

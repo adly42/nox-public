@@ -1,0 +1,25 @@
+{
+  "version": "1.16.8",
+  "date": "2025-07-26",
+  "title": "Faster, Smoother, More Reliable",
+  "description": "We've supercharged RPLY with major performance improvements that make the app load faster and feel more responsive. This release also brings new statistics to help you understand your messaging habits, plus dozens of fixes to make your experience more stable and reliable.",
+  "features": [
+    "New statistics dashboard shows your messaging patterns and time saved",
+    "Scheduled messages now include more options and improvements",
+    "Group chat messages now display contact names for easier conversation tracking",
+    "Clickable links in messages make it easy to open websites directly",
+    "Improved onboarding flow with restore tutorial for returning users"
+  ],
+  "fixes": [
+    "Fixed long loading times when opening the app",
+    "Resolved issue where chats wouldn't appear in some cases",
+    "Fixed missing chat threads so all your conversations stay visible",
+    "Improved search panel animations and stability",
+    "Fixed \"Launch at Login\" toggle to properly reflect changes",
+    "Resolved issue preventing unghosting contacts",
+    "Fixed floating window to stop typing when switching conversations",
+    "Improved AI reply generation for new users with fewer conversations",
+    "Fixed potential crashes when searching messages",
+    "Smoother streaming responses with better character timing"
+  ]
+}

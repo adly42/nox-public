@@ -1,0 +1,15 @@
+{
+  "version": "1.16.22",
+  "date": "2025-11-14",
+  "title": "Faster Launch & Rock-Solid Stability",
+  "description": "We've supercharged RPLY's startup speed and squashed several critical crashes that were affecting the onboarding experience and daily use. This release is all about making your messaging experience smoother and more reliable from the moment you open the app.",
+  "features": [
+    "Significantly faster app launch times with optimized startup performance"
+  ],
+  "fixes": [
+    "Fixed a crash that occurred during onboarding when viewing the reply tutorial",
+    "Resolved multiple crash issues affecting sidebar navigation and message interactions",
+    "Fixed a stability issue that could cause crashes when dismissing conversations",
+    "Improved overall app stability with better memory management across the interface"
+  ]
+}

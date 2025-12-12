@@ -1,0 +1,13 @@
+{
+  "version": "1.16.23",
+  "date": "2025-11-15",
+  "title": "Enhanced Contact System & Performance Boost",
+  "description": "We've upgraded RPLY's contact system to give you more flexibility in how you connect with others. This release includes important behind-the-scenes improvements that make the app faster and more reliable for everyone.",
+  "features": [
+    "You can now find and message contacts using their phone numbers, not just email addresses"
+  ],
+  "fixes": [
+    "Resolved messaging issues that could prevent chats from loading properly",
+    "Streamlined the app by removing outdated code for a smoother, faster experience"
+  ]
+}

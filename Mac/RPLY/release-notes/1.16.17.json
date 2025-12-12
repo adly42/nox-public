@@ -1,0 +1,10 @@
+{
+  "version": "1.16.17",
+  "date": "2025-10-23",
+  "title": "Stability Fix: Smoother Messaging Experience",
+  "description": "We've squashed a pesky bug that could cause the app to crash when receiving rapid notifications. This update ensures RPLY stays stable and responsive, even during your busiest conversations.",
+  "features": [],
+  "fixes": [
+    "Fixed app crashes caused by receiving multiple notifications in quick succession"
+  ]
+}

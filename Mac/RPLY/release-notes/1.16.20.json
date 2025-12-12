@@ -1,0 +1,17 @@
+{
+  "version": "1.16.20",
+  "date": "2025-11-04",
+  "title": "Faster, Smoother, More Reliable",
+  "description": "This release is all about performance and polish. We've dramatically improved build times for our team (10x faster!), fixed message streaming to handle bursts smoothly, and added delightful daily backgrounds when you reach inbox zero. Plus, we've made syncing more reliable and squashed some pesky bugs.",
+  "features": [
+    "New daily background images appear when you reach inbox zero—a fresh look every day of the month",
+    "Share message content directly from iOS with the new share UI",
+    "Enhanced onboarding experience with animated contact orbits"
+  ],
+  "fixes": [
+    "Significantly improved performance when receiving multiple messages at once—no more lag during message bursts",
+    "Fixed CloudKit syncing to start automatically and keep your conversations up to date",
+    "Resolved session verification errors that could occur after purchase",
+    "iMessage contacts now sync properly every time you launch the app"
+  ]
+}

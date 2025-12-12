@@ -1,0 +1,19 @@
+{
+  "version": "1.16.26",
+  "date": "2025-11-21",
+  "title": "Smoother, Faster, More Beautiful",
+  "description": "This release brings major performance improvements across the board, making RPLY feel incredibly smooth and responsive. We've redesigned the iOS home screen with an interactive background and better navigation, fixed onboarding animations that felt choppy, and made scrolling through your conversations buttery smooth—even with thousands of messages.",
+  "features": [
+    "Redesigned iOS home screen with interactive background that responds to scrolling and new time window filters",
+    "Beautiful new loading states and refined inbox zero screen with clearer calls-to-action",
+    "Smooth floating window animations in iMessage that fade in gracefully instead of popping abruptly",
+    "Improved disconnected error state with helpful instructions and download link positioned at the top"
+  ],
+  "fixes": [
+    "Fixed conversation list scrolling performance—now silky smooth even with 1,000+ conversations",
+    "Resolved stuttering onboarding animations on macOS for the animated orb and graph effects",
+    "Improved expanded message close button and tap-to-dismiss interactions",
+    "Fixed minor hang warning caused by 3D text animations",
+    "Enhanced privacy by removing potentially sensitive information from analytics events"
+  ]
+}

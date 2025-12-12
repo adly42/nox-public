@@ -1,0 +1,35 @@
+{
+  "version": "1.16.16",
+  "date": "2025-10-23",
+  "title": "Smoother, Faster, and More Reliable",
+  "description": "This release brings major performance upgrades and stability improvements across the board. We've supercharged message loading speeds, polished the Portal UI with better animations and keyboard shortcuts, and made WhatsApp integration more reliable with smart auto-reconnection. Plus, we've squashed dozens of bugs to make RPLY feel snappier than ever.",
+  "features": [
+    "Lightning-fast message loading with improved conversation history performance",
+    "Enhanced Portal UI with better keyboard shortcuts (Esc, Return) and smoother send animations",
+    "WhatsApp auto-reconnection that intelligently handles network issues",
+    "New multi-reply interface lets you respond to multiple messages at once",
+    "Arrow key navigation in Portal grid view for faster browsing",
+    "Contact trends and statistics views with beautiful friend charts and person highlighting",
+    "Improved onboarding experience with new welcome screens and reliability upgrades",
+    "Group chat support for WhatsApp via Accessibility API",
+    "Per-contact and global formatting preferences for personalized replies",
+    "Proactive calendar event detection with better date parsing"
+  ],
+  "fixes": [
+    "Fixed code signing issues that could break the app for users with special characters in their names",
+    "Resolved conversation history sometimes appearing empty",
+    "Fixed search button not working due to layout issues",
+    "Prevented stale UI callbacks from truncating streaming replies",
+    "Fixed action buttons and reply section being invisible in expanded Portal view",
+    "Eliminated duplicate incoming messages",
+    "Resolved app becoming unresponsive for extended periods",
+    "Fixed WhatsApp messages not being received and dismissed conversations staying hidden",
+    "Improved streaming reply text updates to prevent UI jitter",
+    "Fixed group chats not loading in initial data fetch",
+    "Resolved fatal errors on desktop Macs related to battery monitoring",
+    "Fixed RPLY icon randomly disappearing from menu bar",
+    "Prevented crashes when scrolling in Portal UI",
+    "Fixed WhatsApp service crashes during onboarding and decryption errors",
+    "Improved analytics reliability for tracking user engagement"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": "1.16.25",
+  "date": "2025-11-19",
+  "title": "Privacy, Performance & Polish",
+  "description": "This release doubles down on your privacy and app performance. We've strengthened privacy controls during onboarding, dramatically improved iMessage floating window responsiveness, and eliminated unnecessary background processes. RPLY now feels faster and respects your privacy choices from the moment you start using it.",
+  "features": [
+    "Enhanced app update experience with improved visual feedback",
+    "Smarter AI model switching that only syncs when needed, saving battery and resources"
+  ],
+  "fixes": [
+    "Conversations now update properly without requiring manual refreshes",
+    "Maximum Privacy setting is now fully enforced during onboarding—no analytics data is sent when you choose this option",
+    "iMessage floating windows move smoothly without stuttering or lag",
+    "Improved security for API credentials with better protection",
+    "Cleaner AI responses without unnecessary meta-commentary"
+  ]
+}

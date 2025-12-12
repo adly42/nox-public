@@ -1,0 +1,23 @@
+{
+  "version": "1.16.2",
+  "date": "2025-07-08",
+  "title": "Group Chats & Stability Improvements",
+  "description": "We've squashed a bunch of bugs affecting group chats and made RPLY more reliable than ever. This update focuses on fixing issues you've reported with contact names, conversations not appearing, and Reply Assistant working better with your group messages.",
+  "features": [
+    "Conversations are now marked as read immediately when you send a message",
+    "New updater banner to keep you informed about the latest RPLY features",
+    "Refreshed Settings interface with improved design and readability"
+  ],
+  "fixes": [
+    "Fixed contact names missing in group chat messages",
+    "Fixed group chat names showing incorrectly in Reply Assistant",
+    "Fixed some conversations not appearing when receiving new messages",
+    "Fixed Reply Assistant Instant Send now properly checks permissions before sending",
+    "Fixed info buttons in General Settings now respond correctly",
+    "Fixed Recent Actions button and table are now readable",
+    "Fixed search functionality issues",
+    "Fixed onboarding accessibility dialogue now appears in front of the onboarding window",
+    "Fixed floating window date display accuracy",
+    "Fixed scheduled message senders loading correctly"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.16.27",
+  "date": "2025-11-23",
+  "title": "Smoother, Faster, More Reliable Messaging",
+  "description": "This release is all about polish and performance. We've dramatically improved scrolling smoothness, fixed animation jank when viewing expanded messages, and made RPLY better at detecting your contact information. Plus, several pesky bugs that affected keyboard navigation and message syncing are now history.",
+  "features": [
+    "Silky-smooth scrolling through conversations with optimized hover effects that no longer cause lag",
+    "Buttery animations when expanding messages with improved visual transitions and no more flickering",
+    "Smarter detection of your phone numbers and email addresses for better account matching"
+  ],
+  "fixes": [
+    "Fixed arrow key navigation not working after closing message details",
+    "Resolved sync issues where conversations wouldn't update properly",
+    "Eliminated race conditions that could cause dismissed messages to reappear"
+  ]
+}
