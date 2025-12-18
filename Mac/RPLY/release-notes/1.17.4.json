@@ -1,0 +1,15 @@
+{
+  "version": "1.17.4",
+  "date": "2025-12-12",
+  "title": "Smarter Conversation Selection",
+  "description": "Conversations now intelligently auto-select when you switch tabs or filters, so you never see an empty screen.",
+  "features": [
+    "Conversations now auto-select when switching tabs or changing filters—no more empty screens"
+  ],
+  "fixes": [
+    "Fixed crash when switching between conversations"
+  ],
+  "images": [
+    "https://nox-devices.github.io/nox-public/Mac/RPLY/release-notes/media/pr1338_1.png"
+  ]
+}
