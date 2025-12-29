@@ -3,12 +3,12 @@
     <channel>
         <title>RPLY</title>
         <item>
-            <title>1.17.5</title>
-            <pubDate>Thu, 18 Dec 2025 17:26:18 +0100</pubDate>
-            <sparkle:version>20251218162051</sparkle:version>
-            <sparkle:shortVersionString>1.17.5</sparkle:shortVersionString>
+            <title>1.17.6</title>
+            <pubDate>Fri, 19 Dec 2025 00:40:33 +0100</pubDate>
+            <sparkle:version>20251229231602</sparkle:version>
+            <sparkle:shortVersionString>1.17.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://nox-website.s3.us-east-2.amazonaws.com/RPLY.dmg" length="409786900" type="application/octet-stream" sparkle:edSignature="9KdZ51oOy6M342cU8cHpt1TjHsX7mEXjAA1QIa5tl3AEBYZ78MVWYKN6aiUqTjMLwRAdi5faXVfCswN4+pijDg=="/>
+            <enclosure url="https://nox-website.s3.us-east-2.amazonaws.com/RPLY.dmg" length="432279553" type="application/octet-stream" sparkle:edSignature="XqXx/sqjq6VgXDj1YQRJyrwjQVJJAU2bQvWGYTqsRuAi8TbjZZLgwNyuOfI2Iryq0MIJ5qF308lfM7TbnGFIBw=="/>
         </item>
     </channel>
 </rss>
