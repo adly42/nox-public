@@ -1,0 +1,21 @@
+{
+    "version": "1.17.10",
+    "features": [
+      "RPLY Agent lets you text across all your messages, notes, browser history, and calendar from your own iMessage. Still early but it's getting pretty unbelievable. Turn on ‘Enable RPLY Agent’ in Settings.",
+      "Custom inboxes: Create and manage personalized inbox filters",
+      "Right-click context menu to ignore contacts directly from messages",
+      "Two-finger swipe gesture to navigate between inbox tabs",
+      "⌘1–⌘3 keyboard shortcuts to switch between Needs Reply, Caught Up, and Waiting On tabs"
+    ],
+    "fixes": [
+      "Spacebar no longer gets removed while typing in the reply composer",
+      "Regenerating a reply from Caught Up tab now works reliably",
+      "Filter menu options now apply correctly without dismissing",
+      "Empty inbox state when filtering by channel no longer traps users",
+      "Floating overlay now appears consistently when iMessage is open",
+      "WhatsApp contacts now show names from macOS Contacts app",
+      "Arrow key navigation improved for conversation list",
+      "Agent status indicator now shows connection state with relaunch option",
+      "Improved inbox tab bar design with extended blur background"
+    ]
+  }
