@@ -2,10 +2,29 @@
   {
     "version": "1.17.10",
     "date": "2026-01-01",
-    "title": "Version 1.17.10",
-    "description": "",
-    "features": [],
-    "fixes": [],
+    "title": "Agent Status, Performance Boosts & Navigation",
+    "description": "RPLY 1.17.10 introduces visual agent status indicators with relaunch capabilities, making it easier to stay connected. This release delivers significant performance improvements with two-finger swipe navigation between tabs, arrow-key enhancements, and streamlined keyboard shortcuts for faster workflow.",
+    "features": [
+      "Agent status indicator with pulsing animation and relaunch button for better connection awareness",
+      "Two-finger swipe gesture navigation between inbox tabs for faster switching",
+      "Keyboard shortcuts ⌘1–⌘3 to quickly jump between conversation tabs",
+      "Improved arrow-key navigation for seamless keyboard control",
+      "Context menu to ignore contacts with improved contact management",
+      "WhatsApp contacts now resolve names from macOS Contacts",
+      "Redesigned inbox tab bar header with enhanced visual design",
+      "RPLY Agent now stays running when you close the last window"
+    ],
+    "fixes": [
+      "Fixed floating window overlay not consistently activating when iMessage is open",
+      "Stabilized contact button position in portal toolbar to prevent shifting",
+      "Fixed stats overlay to properly open RPLY app when clicked",
+      "Resolved spacebar input being removed while typing",
+      "Fixed browser history search patterns for more accurate results",
+      "Fixed force reply behavior for caught-up conversations during user-initiated regeneration",
+      "Improved conversation filter updates and channel inbox empty state handling",
+      "Fixed chat client race conditions for more stable messaging",
+      "Reduced app verification issues"
+    ],
     "images": [
       "https://nox-devices.github.io/nox-public/Mac/RPLY/release-notes/media/v1.17.10_1.png",
       "https://nox-devices.github.io/nox-public/Mac/RPLY/release-notes/media/v1.17.10_2.png",
