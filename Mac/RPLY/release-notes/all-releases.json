@@ -1,5 +1,18 @@
 [
   {
+    "version": "1.17.10",
+    "date": "2026-01-01",
+    "title": "Version 1.17.10",
+    "description": "",
+    "features": [],
+    "fixes": [],
+    "images": [
+      "https://nox-devices.github.io/nox-public/Mac/RPLY/release-notes/media/v1.17.10_1.png",
+      "https://nox-devices.github.io/nox-public/Mac/RPLY/release-notes/media/v1.17.10_2.png",
+      "https://nox-devices.github.io/nox-public/Mac/RPLY/release-notes/media/v1.17.10_3.gif"
+    ]
+  },
+  {
     "version": "1.17.5",
     "date": "2025-12-18",
     "title": "Streak Tracking Improvements",
@@ -20,7 +33,7 @@
     "title": "Smarter Conversation Selection",
     "description": "Conversations now intelligently auto-select when you switch tabs or filters, so you never see an empty screen.",
     "features": [
-      "Conversations now auto-select when switching tabs or changing filters\u2014no more empty screens"
+      "Conversations now auto-select when switching tabs or changing filters—no more empty screens"
     ],
     "fixes": [
       "Fixed crash when switching between conversations"
