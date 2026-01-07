@@ -2,8 +2,8 @@
   {
     "version": "1.17.10",
     "date": "2026-01-01",
-    "title": "Agent Status, Performance Boosts & Navigation Upgrades",
-    "description": "This release introduces RPLY Agent status indicators and greeting, making it easier to monitor your AI assistant. We've significantly improved app performance with better gesture navigation, reduced resource usage, and faster contact resolution across iMessage and WhatsApp.",
+    "title": "RPLY Agent + Navigation Upgrades",
+    "description": "Meet the new RPLY Agent—your AI assistant that now stays running in the background with a helpful status indicator and quick relaunch button. We've also supercharged navigation with two-finger swipe gestures between tabs, keyboard shortcuts (⌘1-⌘3), and improved arrow-key controls to help you fly through conversations faster than ever.",
     "features": [
       "Agent status indicator with pulsing animation and relaunch button",
       "RPLY Agent greeting to welcome users",
