@@ -17,5 +17,10 @@
       "Arrow key navigation improved for conversation list",
       "Agent status indicator now shows connection state with relaunch option",
       "Improved inbox tab bar design with extended blur background"
+    ], 
+    "images": [
+      "https://nox-devices.github.io/nox-public/Mac/RPLY/release-notes/media/v1.17.10_3.gif",
+      "https://nox-devices.github.io/nox-public/Mac/RPLY/release-notes/media/v1.17.10_1.png",
+      "https://nox-devices.github.io/nox-public/Mac/RPLY/release-notes/media/v1.17.10_2.png"
     ]
   }
