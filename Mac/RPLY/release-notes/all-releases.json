@@ -2,34 +2,33 @@
   {
     "version": "1.17.10",
     "date": "2026-01-01",
-    "title": "Agent Status, Performance Boosts & Navigation",
-    "description": "RPLY 1.17.10 introduces visual agent status indicators with relaunch capabilities, making it easier to stay connected. This release delivers significant performance improvements with two-finger swipe navigation between tabs, arrow-key enhancements, and streamlined keyboard shortcuts for faster workflow.",
+    "title": "Agent Status, Performance Boosts & Navigation Upgrades",
+    "description": "This release introduces RPLY Agent status indicators and greeting, making it easier to monitor your AI assistant. We've significantly improved app performance with better gesture navigation, reduced resource usage, and faster contact resolution across iMessage and WhatsApp.",
     "features": [
-      "Agent status indicator with pulsing animation and relaunch button for better connection awareness",
-      "Two-finger swipe gesture navigation between inbox tabs for faster switching",
-      "Keyboard shortcuts ⌘1–⌘3 to quickly jump between conversation tabs",
-      "Improved arrow-key navigation for seamless keyboard control",
-      "Context menu to ignore contacts with improved contact management",
-      "WhatsApp contacts now resolve names from macOS Contacts",
-      "Redesigned inbox tab bar header with enhanced visual design",
-      "RPLY Agent now stays running when you close the last window"
+      "Agent status indicator with pulsing animation and relaunch button",
+      "RPLY Agent greeting to welcome users",
+      "Two-finger swipe gesture navigation between inbox tabs",
+      "Improved arrow-key navigation throughout the app",
+      "⌘1–⌘3 keyboard shortcuts to quickly switch between conversation tabs",
+      "Context menu to ignore contacts and prevent unwanted conversations",
+      "WhatsApp contact names now resolved from macOS Contacts",
+      "Redesigned inbox tab bar header for cleaner interface",
+      "Classification redesign with improved visual presentation"
     ],
     "fixes": [
+      "RPLY Agent no longer quits when last window is closed",
+      "Fixed verification issues with RPLY",
+      "Fixed ConversationFilter updates and channel inbox empty state",
+      "Fixed force reply behavior for caught-up conversations during regeneration",
+      "Fixed browser history search patterns",
       "Fixed floating window overlay not consistently activating when iMessage is open",
-      "Stabilized contact button position in portal toolbar to prevent shifting",
+      "Stabilized contact button position in portal toolbar",
       "Fixed stats overlay to properly open RPLY app when clicked",
-      "Resolved spacebar input being removed while typing",
-      "Fixed browser history search patterns for more accurate results",
-      "Fixed force reply behavior for caught-up conversations during user-initiated regeneration",
-      "Improved conversation filter updates and channel inbox empty state handling",
-      "Fixed chat client race conditions for more stable messaging",
-      "Reduced app verification issues"
+      "Fixed ChatClient race conditions for more reliable messaging",
+      "Fixed spacebar input being removed while typing",
+      "Improved handling of chat response decoding errors"
     ],
-    "images": [
-      "https://nox-devices.github.io/nox-public/Mac/RPLY/release-notes/media/v1.17.10_1.png",
-      "https://nox-devices.github.io/nox-public/Mac/RPLY/release-notes/media/v1.17.10_2.png",
-      "https://nox-devices.github.io/nox-public/Mac/RPLY/release-notes/media/v1.17.10_3.gif"
-    ]
+    "images": []
   },
   {
     "version": "1.17.5",
