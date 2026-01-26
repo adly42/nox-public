@@ -1,5 +1,83 @@
 [
   {
+    "version": "1.17.14",
+    "date": "2026-01-24",
+    "title": "Smoother Onboarding",
+    "description": "Quick fix to improve onboarding—RPLY no longer generates AI replies for conversations with NOX support, letting you focus on real messages.",
+    "features": [],
+    "fixes": [
+      "Fixed onboarding by preventing AI reply generation for NOX support chats"
+    ],
+    "prs": [1433],
+    "images": []
+  },
+  {
+    "version": "1.17.13",
+    "date": "2026-01-23",
+    "title": "Smarter Inbox & Keyboard Shortcuts",
+    "description": "Your inbox just got smarter with refined priority sorting and improved demo mode. Plus, new keyboard shortcut prompts help you navigate faster, and spam filtering keeps unwanted messages out of sight.",
+    "features": [
+      "Keyboard shortcut prompts to help you learn navigation faster",
+      "Spam and automated message filtering to keep your inbox clean",
+      "Refined priority UI with better visual hierarchy"
+    ],
+    "fixes": [
+      "Improved demo mode behavior and stability",
+      "Fixed priority syncing issues",
+      "Various regression fixes"
+    ],
+    "prs": [1410, 1430, 1431, 1432, 1434, 1435],
+    "images": [
+      "https://nox-devices.github.io/nox-public/Mac/RPLY/release-notes/media/v1.17.13_shortcuts.png"
+    ]
+  },
+  {
+    "version": "1.17.12",
+    "date": "2026-01-18",
+    "title": "Priority Inbox & Performance Boost",
+    "description": "Your most important conversations now automatically rise to the top with our new priority inbox. We've also added toggles for AI-generated replies and calendar event detection, plus major performance improvements and crash fixes.",
+    "features": [
+      "Priority inbox: Important conversations automatically rise to the top based on relationship strength and message urgency",
+      "AI-generated replies toggle: Control when AI suggestions appear in Settings",
+      "Auto-add calendar events toggle: Automatically detect dates and events mentioned in your messages",
+      "Performance caching between app launches for faster startup"
+    ],
+    "fixes": [
+      "Fixed crashes on M1/M2 Macs when using on-device AI embeddings",
+      "Messages now correctly marked as needing response when reply text is present",
+      "Send messages from all possible sender IDs (fixes some iMessage delivery issues)",
+      "Better error handling when chat database fails to load",
+      "Improved onboarding flow with clearer permission prompts",
+      "Performance improvements across conversation loading and filtering",
+      "Fixed demo mode step progression and conversation display",
+      "Reduced unnecessary error logging to Sentry"
+    ],
+    "prs": [1359, 1391, 1404, 1405, 1406, 1407, 1408, 1409, 1411, 1414, 1415, 1416, 1417, 1418, 1422, 1424, 1425, 1427, 1428],
+    "images": [
+      "https://nox-devices.github.io/nox-public/Mac/RPLY/release-notes/media/v1.17.12_priority.png"
+    ]
+  },
+  {
+    "version": "1.17.11",
+    "date": "2026-01-08",
+    "title": "Demo Mode & Analytics",
+    "description": "Enhanced demo mode now activates automatically after onboarding, and we've added comprehensive analytics to help us improve RPLY. Plus, several UI polish updates and crash fixes.",
+    "features": [
+      "Demo mode automatically enables after completing onboarding",
+      "Comprehensive analytics tracking for better insights",
+      "Improved permission messaging during setup"
+    ],
+    "fixes": [
+      "RPLY Agent no longer quits when last window is closed",
+      "Fixed keyboard shortcut sending when conversation is selected",
+      "Improved conversation auto-selection when dismissing messages",
+      "Fixed AttributeGraph crash from cache flag mutations",
+      "Better contact button UI and positioning"
+    ],
+    "prs": [1379, 1380, 1381, 1382, 1383, 1390, 1392, 1393, 1395, 1396, 1399, 1400, 1401, 1403],
+    "images": []
+  },
+  {
     "version": "1.17.10",
     "date": "2026-01-01",
     "title": "RPLY Agent + Navigation Upgrades",

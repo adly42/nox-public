@@ -1,0 +1,17 @@
+{
+    "version": "1.17.11",
+    "features": [
+      "Demo mode automatically enables after completing onboarding",
+      "Comprehensive analytics tracking for better insights",
+      "Improved permission messaging during setup"
+    ],
+    "fixes": [
+      "RPLY Agent no longer quits when last window is closed",
+      "Fixed keyboard shortcut sending when conversation is selected",
+      "Improved conversation auto-selection when dismissing messages",
+      "Fixed AttributeGraph crash from cache flag mutations",
+      "Better contact button UI and positioning"
+    ],
+    "prs": [1379, 1380, 1381, 1382, 1383, 1390, 1392, 1393, 1395, 1396, 1399, 1400, 1401, 1403],
+    "images": []
+  }

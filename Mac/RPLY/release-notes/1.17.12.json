@@ -1,0 +1,23 @@
+{
+    "version": "1.17.12",
+    "features": [
+      "Priority inbox: Important conversations automatically rise to the top based on relationship strength and message urgency",
+      "AI-generated replies toggle: Control when AI suggestions appear in Settings",
+      "Auto-add calendar events toggle: Automatically detect dates and events mentioned in your messages",
+      "Performance caching between app launches for faster startup"
+    ],
+    "fixes": [
+      "Fixed crashes on M1/M2 Macs when using on-device AI embeddings",
+      "Messages now correctly marked as needing response when reply text is present",
+      "Send messages from all possible sender IDs (fixes some iMessage delivery issues)",
+      "Better error handling when chat database fails to load",
+      "Improved onboarding flow with clearer permission prompts",
+      "Performance improvements across conversation loading and filtering",
+      "Fixed demo mode step progression and conversation display",
+      "Reduced unnecessary error logging to Sentry"
+    ],
+    "prs": [1359, 1391, 1404, 1405, 1406, 1407, 1408, 1409, 1411, 1414, 1415, 1416, 1417, 1418, 1422, 1424, 1425, 1427, 1428],
+    "images": [
+      "https://nox-devices.github.io/nox-public/Mac/RPLY/release-notes/media/v1.17.12_priority.png"
+    ]
+  }

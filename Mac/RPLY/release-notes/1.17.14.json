@@ -1,0 +1,9 @@
+{
+    "version": "1.17.14",
+    "features": [],
+    "fixes": [
+      "Fixed onboarding by preventing AI reply generation for NOX support chats"
+    ],
+    "prs": [1433],
+    "images": []
+  }

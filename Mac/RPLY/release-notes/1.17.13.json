@@ -1,0 +1,17 @@
+{
+    "version": "1.17.13",
+    "features": [
+      "Keyboard shortcut prompts to help you learn navigation faster",
+      "Spam and automated message filtering to keep your inbox clean",
+      "Refined priority UI with better visual hierarchy"
+    ],
+    "fixes": [
+      "Improved demo mode behavior and stability",
+      "Fixed priority syncing issues",
+      "Various regression fixes"
+    ],
+    "prs": [1410, 1430, 1431, 1432, 1434, 1435],
+    "images": [
+      "https://nox-devices.github.io/nox-public/Mac/RPLY/release-notes/media/v1.17.13_shortcuts.png"
+    ]
+  }
