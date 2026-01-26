@@ -1,0 +1,9 @@
+{
+  "version": "1.17.15",
+  "features": [],
+  "fixes": [
+    "remove LLM usage tracking integration"
+  ],
+  "prs": [1439],
+  "images": []
+}

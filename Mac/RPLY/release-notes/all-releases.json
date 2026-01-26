@@ -1,5 +1,17 @@
 [
   {
+    "version": "1.17.15",
+    "date": "2026-01-26",
+    "title": "Your Privacy, Protected",
+    "description": "We've reduced background data collection to keep your conversations more private and help the app run lighter on your Mac.",
+    "features": [],
+    "fixes": [
+      "remove LLM usage tracking integration"
+    ],
+    "prs": [1439],
+    "images": []
+  },
+  {
     "version": "1.17.14",
     "date": "2026-01-24",
     "title": "Smoother Onboarding",
