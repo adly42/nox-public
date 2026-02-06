@@ -1,11 +1,15 @@
 [
   {
-    "features" : [
-      "add missed call badge with smart filtering",
-      "add Attio integration for CRM syncing"
-    ],
     "date" : "2026-02-05",
-    "title" : "Call History, Attio CRM Integration",
+    "fixes" : [
+      "re-enable platform styling and add draft persistence tracking",
+      "propagate outgoing message updates + flush draft on blur",
+      "restore chat bubble platform styling",
+      "improved ui for inbox tab bar + general fixes",
+      "generate contact summary in the background",
+      "contacts knowledge list filtering",
+      "update inbox tab bar ui"
+    ],
     "prs" : [
       1455,
       1450,
@@ -18,6 +22,10 @@
       1441,
       1439
     ],
+    "features" : [
+      "add missed call badge with smart filtering",
+      "add Attio integration for CRM syncing"
+    ],
     "images" : [
       "https:\/\/github.com\/user-attachments\/assets\/a878dfdb-e5dd-4962-b110-7e6264db6ef5",
       "https:\/\/github.com\/user-attachments\/assets\/c6263cdd-18b0-4618-be13-7a15172e8cb5",
@@ -26,53 +34,45 @@
       "https:\/\/nox-devices.github.io\/nox-public\/Mac\/RPLY\/release-notes\/media\/v1_17_16_1770348631.png",
       "https:\/\/nox-devices.github.io\/nox-public\/Mac\/RPLY\/release-notes\/media\/v1_17_16_1770348631_1.png"
     ],
-    "description" : "RPLY now sees your missed calls and weaves them into the messaging interface. Plus, your contacts can now instantly sync with Attio CRM.",
-    "fixes" : [
-      "re-enable platform styling and add draft persistence tracking",
-      "propagate outgoing message updates + flush draft on blur",
-      "restore chat bubble platform styling",
-      "improved ui for inbox tab bar + general fixes",
-      "generate contact summary in the background",
-      "contacts knowledge list filtering",
-      "update inbox tab bar ui"
-    ],
-    "version" : "1.17.16"
+    "title" : "Call History, Attio CRM Integration",
+    "version" : "1.17.16",
+    "description" : "RPLY now sees your missed calls and weaves them into the messaging interface. Plus, your contacts can now instantly sync with Attio CRM."
   },
   {
-    "date" : "2026-01-26",
-    "images" : [
-
-    ],
-    "prs" : [
-      1439
-    ],
+    "version" : "1.17.15",
+    "title" : "Your Privacy, Protected",
     "fixes" : [
       "remove LLM usage tracking integration"
     ],
+    "date" : "2026-01-26",
     "features" : [
 
     ],
     "description" : "We've reduced background data collection to keep your conversations more private and help the app run lighter on your Mac.",
-    "version" : "1.17.15",
-    "title" : "Your Privacy, Protected"
-  },
-  {
-    "version" : "1.17.14",
+    "prs" : [
+      1439
+    ],
     "images" : [
 
-    ],
-    "title" : "Smoother Onboarding",
-    "description" : "Quick fix to improve onboarding—RPLY no longer generates AI replies for conversations with NOX support, letting you focus on real messages.",
+    ]
+  },
+  {
     "date" : "2026-01-24",
-    "prs" : [
-      1433
+    "images" : [
+
     ],
     "fixes" : [
       "Fixed onboarding by preventing AI reply generation for NOX support chats"
     ],
     "features" : [
 
-    ]
+    ],
+    "prs" : [
+      1433
+    ],
+    "description" : "Quick fix to improve onboarding—RPLY no longer generates AI replies for conversations with NOX support, letting you focus on real messages.",
+    "title" : "Smoother Onboarding",
+    "version" : "1.17.14"
   },
   {
     "prs" : [
@@ -83,26 +83,26 @@
       1434,
       1435
     ],
+    "title" : "Smarter Inbox & Keyboard Shortcuts",
+    "images" : [
+      "https:\/\/nox-devices.github.io\/nox-public\/Mac\/RPLY\/release-notes\/media\/v1.17.13_shortcuts.png"
+    ],
     "version" : "1.17.13",
+    "date" : "2026-01-23",
+    "description" : "Your inbox just got smarter with refined priority sorting and improved demo mode. Plus, new keyboard shortcut prompts help you navigate faster, and spam filtering keeps unwanted messages out of sight.",
     "fixes" : [
       "Improved demo mode behavior and stability",
       "Fixed priority syncing issues",
       "Various regression fixes"
     ],
-    "images" : [
-      "https:\/\/nox-devices.github.io\/nox-public\/Mac\/RPLY\/release-notes\/media\/v1.17.13_shortcuts.png"
-    ],
-    "date" : "2026-01-23",
-    "title" : "Smarter Inbox & Keyboard Shortcuts",
     "features" : [
       "Keyboard shortcut prompts to help you learn navigation faster",
       "Spam and automated message filtering to keep your inbox clean",
       "Refined priority UI with better visual hierarchy"
-    ],
-    "description" : "Your inbox just got smarter with refined priority sorting and improved demo mode. Plus, new keyboard shortcut prompts help you navigate faster, and spam filtering keeps unwanted messages out of sight."
+    ]
   },
   {
-    "description" : "Your most important conversations now automatically rise to the top with our new priority inbox. We've also added toggles for AI-generated replies and calendar event detection, plus major performance improvements and crash fixes.",
+    "version" : "1.17.12",
     "fixes" : [
       "Fixed crashes on M1\/M2 Macs when using on-device AI embeddings",
       "Messages now correctly marked as needing response when reply text is present",
@@ -113,11 +113,8 @@
       "Fixed demo mode step progression and conversation display",
       "Reduced unnecessary error logging to Sentry"
     ],
-    "features" : [
-      "Priority inbox: Important conversations automatically rise to the top based on relationship strength and message urgency",
-      "AI-generated replies toggle: Control when AI suggestions appear in Settings",
-      "Auto-add calendar events toggle: Automatically detect dates and events mentioned in your messages",
-      "Performance caching between app launches for faster startup"
+    "images" : [
+      "https:\/\/nox-devices.github.io\/nox-public\/Mac\/RPLY\/release-notes\/media\/v1.17.12_priority.gif"
     ],
     "prs" : [
       1359,
@@ -140,15 +137,21 @@
       1427,
       1428
     ],
-    "images" : [
-      "https:\/\/nox-devices.github.io\/nox-public\/Mac\/RPLY\/release-notes\/media\/v1.17.12_priority.gif"
-    ],
+    "date" : "2026-01-18",
     "title" : "Priority Inbox & Performance Boost",
-    "version" : "1.17.12",
-    "date" : "2026-01-18"
+    "features" : [
+      "Priority inbox: Important conversations automatically rise to the top based on relationship strength and message urgency",
+      "AI-generated replies toggle: Control when AI suggestions appear in Settings",
+      "Auto-add calendar events toggle: Automatically detect dates and events mentioned in your messages",
+      "Performance caching between app launches for faster startup"
+    ],
+    "description" : "Your most important conversations now automatically rise to the top with our new priority inbox. We've also added toggles for AI-generated replies and calendar event detection, plus major performance improvements and crash fixes."
   },
   {
-    "title" : "Demo Mode & Analytics",
+    "version" : "1.17.11",
+    "images" : [
+
+    ],
     "fixes" : [
       "RPLY Agent no longer quits when last window is closed",
       "Fixed keyboard shortcut sending when conversation is selected",
@@ -156,10 +159,12 @@
       "Fixed AttributeGraph crash from cache flag mutations",
       "Better contact button UI and positioning"
     ],
-    "images" : [
-
-    ],
     "description" : "Enhanced demo mode now activates automatically after onboarding, and we've added comprehensive analytics to help us improve RPLY. Plus, several UI polish updates and crash fixes.",
+    "features" : [
+      "Demo mode automatically enables after completing onboarding",
+      "Comprehensive analytics tracking for better insights",
+      "Improved permission messaging during setup"
+    ],
     "prs" : [
       1379,
       1380,
@@ -176,33 +181,12 @@
       1401,
       1403
     ],
-    "features" : [
-      "Demo mode automatically enables after completing onboarding",
-      "Comprehensive analytics tracking for better insights",
-      "Improved permission messaging during setup"
-    ],
-    "version" : "1.17.11",
-    "date" : "2026-01-08"
+    "date" : "2026-01-08",
+    "title" : "Demo Mode & Analytics"
   },
   {
-    "features" : [
-      "Agent status indicator with pulsing animation and relaunch button",
-      "RPLY Agent greeting to welcome users",
-      "Two-finger swipe gesture navigation between inbox tabs",
-      "Improved arrow-key navigation throughout the app",
-      "⌘1–⌘3 keyboard shortcuts to quickly switch between conversation tabs",
-      "Context menu to ignore contacts and prevent unwanted conversations",
-      "WhatsApp contact names now resolved from macOS Contacts",
-      "Redesigned inbox tab bar header for cleaner interface",
-      "Classification redesign with improved visual presentation"
-    ],
-    "title" : "RPLY Agent + Navigation Upgrades",
-    "description" : "Meet the new RPLY Agent—your AI assistant that now stays running in the background with a helpful status indicator and quick relaunch button. We've also supercharged navigation with two-finger swipe gestures between tabs, keyboard shortcuts (⌘1-⌘3), and improved arrow-key controls to help you fly through conversations faster than ever.",
-    "images" : [
-
-    ],
     "version" : "1.17.10",
-    "date" : "2026-01-01",
+    "title" : "RPLY Agent + Navigation Upgrades",
     "fixes" : [
       "RPLY Agent no longer quits when last window is closed",
       "Fixed verification issues with RPLY",
@@ -215,40 +199,65 @@
       "Fixed ChatClient race conditions for more reliable messaging",
       "Fixed spacebar input being removed while typing",
       "Improved handling of chat response decoding errors"
+    ],
+    "description" : "Meet the new RPLY Agent—your AI assistant that now stays running in the background with a helpful status indicator and quick relaunch button. We've also supercharged navigation with two-finger swipe gestures between tabs, keyboard shortcuts (⌘1-⌘3), and improved arrow-key controls to help you fly through conversations faster than ever.",
+    "features" : [
+      "Agent status indicator with pulsing animation and relaunch button",
+      "RPLY Agent greeting to welcome users",
+      "Two-finger swipe gesture navigation between inbox tabs",
+      "Improved arrow-key navigation throughout the app",
+      "⌘1–⌘3 keyboard shortcuts to quickly switch between conversation tabs",
+      "Context menu to ignore contacts and prevent unwanted conversations",
+      "WhatsApp contact names now resolved from macOS Contacts",
+      "Redesigned inbox tab bar header for cleaner interface",
+      "Classification redesign with improved visual presentation"
+    ],
+    "date" : "2026-01-01",
+    "images" : [
+
     ]
   },
   {
+    "features" : [
+      "Improved Inbox Zero streak tracking now remembers your longest streak and tracks streak breaks"
+    ],
+    "title" : "Streak Tracking Improvements",
+    "version" : "1.17.5",
     "fixes" : [
       "Fixed crash when adding NOX contact"
     ],
-    "version" : "1.17.5",
     "date" : "2025-12-18",
     "description" : "Enhanced Inbox Zero tracking now remembers your best streaks and helps you stay motivated by tracking when streaks break.",
-    "title" : "Streak Tracking Improvements",
     "images" : [
       "https:\/\/nox-devices.github.io\/nox-public\/Mac\/RPLY\/release-notes\/media\/pr1333_1.mov"
-    ],
-    "features" : [
-      "Improved Inbox Zero streak tracking now remembers your longest streak and tracks streak breaks"
     ]
   },
   {
-    "description" : "Conversations now intelligently auto-select when you switch tabs or filters, so you never see an empty screen.",
-    "version" : "1.17.4",
-    "images" : [
-      "https:\/\/nox-devices.github.io\/nox-public\/Mac\/RPLY\/release-notes\/media\/pr1338_1.png"
-    ],
-    "title" : "Smarter Conversation Selection",
     "fixes" : [
       "Fixed crash when switching between conversations"
     ],
+    "images" : [
+      "https:\/\/nox-devices.github.io\/nox-public\/Mac\/RPLY\/release-notes\/media\/pr1338_1.png"
+    ],
+    "date" : "2025-12-12",
+    "title" : "Smarter Conversation Selection",
+    "description" : "Conversations now intelligently auto-select when you switch tabs or filters, so you never see an empty screen.",
+    "version" : "1.17.4",
     "features" : [
       "Conversations now auto-select when switching tabs or changing filters—no more empty screens"
-    ],
-    "date" : "2025-12-12"
+    ]
   },
   {
-    "version" : "1.17.3",
+    "features" : [
+      "Dramatically improved scrolling performance with reduced CPU usage",
+      "Enhanced reply generation UI with smoother animations and better visual stability"
+    ],
+    "description" : "This release focuses on making RPLY feel incredibly responsive and rock-solid stable. We've eliminated scroll lag, fixed several crashes, and significantly reduced CPU usage when the app is idle—so RPLY stays out of your way until you need it.",
+    "images" : [
+      "https:\/\/nox-devices.github.io\/nox-public\/Mac\/RPLY\/release-notes\/media\/pr1272_1.jpg",
+      "https:\/\/nox-devices.github.io\/nox-public\/Mac\/RPLY\/release-notes\/media\/pr1259_2.jpg"
+    ],
+    "title" : "Smoother, Faster, More Reliable",
     "fixes" : [
       "Fixed duplicate messages appearing when sharing links",
       "Resolved multiple crashes related to contacts and message syncing",
@@ -256,37 +265,28 @@
       "Corrected layout issues with image message bubbles",
       "Improved demo mode display"
     ],
-    "features" : [
-      "Dramatically improved scrolling performance with reduced CPU usage",
-      "Enhanced reply generation UI with smoother animations and better visual stability"
-    ],
-    "date" : "2025-12-11",
-    "description" : "This release focuses on making RPLY feel incredibly responsive and rock-solid stable. We've eliminated scroll lag, fixed several crashes, and significantly reduced CPU usage when the app is idle—so RPLY stays out of your way until you need it.",
-    "images" : [
-      "https:\/\/nox-devices.github.io\/nox-public\/Mac\/RPLY\/release-notes\/media\/pr1272_1.jpg",
-      "https:\/\/nox-devices.github.io\/nox-public\/Mac\/RPLY\/release-notes\/media\/pr1259_2.jpg"
-    ],
-    "title" : "Smoother, Faster, More Reliable"
+    "version" : "1.17.3",
+    "date" : "2025-12-11"
   },
   {
-    "version" : "1.17.2",
+    "date" : "2025-12-04",
+    "description" : "This update brings experimental smart filters to help you track conversations where you're waiting on a response, plus major speed improvements that make RPLY feel snappier than ever. We've also polished the demo mode experience and fixed several bugs that were causing crashes and UI issues.",
     "fixes" : [
       "Dramatically improved app responsiveness by moving contacts loading off the main thread",
       "Fixed iMessage overlay appearing after free limit was reached for non-subscribers",
       "Resolved inbox zero screen background image overflow issues",
       "Prevented crashes during onboarding caused by display rendering issues"
     ],
+    "version" : "1.17.2",
+    "images" : [
+      "https:\/\/nox-devices.github.io\/nox-public\/Mac\/RPLY\/release-notes\/media\/pr1237_3.png",
+      "https:\/\/nox-devices.github.io\/nox-public\/Mac\/RPLY\/release-notes\/media\/pr1209_10.png"
+    ],
+    "title" : "Smarter Conversations & Smoother Performance",
     "features" : [
       "New experimental 'Waiting On' filter to see conversations where you reached out but haven't heard back",
       "Improved demo mode with a sleek glass-style indicator and interactive walkthrough",
       "Faster, more reliable message typing in iMessage with improved keyboard simulation"
-    ],
-    "date" : "2025-12-04",
-    "description" : "This update brings experimental smart filters to help you track conversations where you're waiting on a response, plus major speed improvements that make RPLY feel snappier than ever. We've also polished the demo mode experience and fixed several bugs that were causing crashes and UI issues.",
-    "title" : "Smarter Conversations & Smoother Performance",
-    "images" : [
-      "https:\/\/nox-devices.github.io\/nox-public\/Mac\/RPLY\/release-notes\/media\/pr1237_3.png",
-      "https:\/\/nox-devices.github.io\/nox-public\/Mac\/RPLY\/release-notes\/media\/pr1209_10.png"
     ]
   },
   {
@@ -295,59 +295,61 @@
       "\"What's New\" sheet now shows release highlights when you update to a new version",
       "Improved group chat detection for newer iMessage conversation formats"
     ],
-    "date" : "2025-12-02",
-    "description" : "This update brings powerful new ways to organize your conversations with filtering by messaging service and time range. We've also added a \"What's New\" feature so you'll always know what's fresh in each update, plus important fixes for iOS app icons and group chat detection.",
-    "fixes" : [
-      "Fixed app icons displaying with white backgrounds on iOS devices",
-      "Cleaned up settings interface by reorganizing options",
-      "Enhanced security with updated API key protection"
-    ],
+    "title" : "Smarter Filtering & Polish Updates",
     "images" : [
       "https:\/\/nox-devices.github.io\/nox-public\/Mac\/RPLY\/release-notes\/media\/pr1240_1.jpg",
       "https:\/\/nox-devices.github.io\/nox-public\/Mac\/RPLY\/release-notes\/media\/pr1241_1.jpg",
       "https:\/\/nox-devices.github.io\/nox-public\/Mac\/RPLY\/release-notes\/media\/pr1238_4.jpg"
     ],
-    "title" : "Smarter Filtering & Polish Updates",
-    "version" : "1.17.1"
+    "version" : "1.17.1",
+    "fixes" : [
+      "Fixed app icons displaying with white backgrounds on iOS devices",
+      "Cleaned up settings interface by reorganizing options",
+      "Enhanced security with updated API key protection"
+    ],
+    "description" : "This update brings powerful new ways to organize your conversations with filtering by messaging service and time range. We've also added a \"What's New\" feature so you'll always know what's fresh in each update, plus important fixes for iOS app icons and group chat detection.",
+    "date" : "2025-12-02"
   },
   {
+    "title" : "Smarter AI & Lightning-Fast Performance",
+    "date" : "2025-11-29",
+    "version" : "1.17.0",
     "fixes" : [
       "Fixed formatting issues in AI-generated replies that could cause odd line breaks",
       "iMessage stats panel now correctly shows only iMessage conversation counts (not mixed with WhatsApp)",
       "Improved analytics tracking to better understand how you use RPLY"
     ],
-    "version" : "1.17.0",
-    "description" : "RPLY just got a major brain upgrade! We've switched to Claude Sonnet 4.5 for dramatically better AI-generated replies, while simultaneously making the app launch faster than ever. Plus, you'll now see exactly what's happening when AI is crafting your responses.",
     "features" : [
       "Upgraded to Claude Sonnet 4.5 AI model for higher quality, more natural message replies",
       "Added loading indicator so you know when AI is generating your response",
       "App now launches significantly faster and shows your conversations immediately"
     ],
-    "title" : "Smarter AI & Lightning-Fast Performance",
-    "date" : "2025-11-29"
+    "description" : "RPLY just got a major brain upgrade! We've switched to Claude Sonnet 4.5 for dramatically better AI-generated replies, while simultaneously making the app launch faster than ever. Plus, you'll now see exactly what's happening when AI is crafting your responses."
   },
   {
-    "features" : [
-      "Open Friends Graph in a dedicated resizable window to see your top 10 most-messaged contacts with improved tooltips",
-      "Enhanced chart performance with better contact name resolution and smoother interactions"
-    ],
-    "fixes" : [
-      "Fixed duplicate messages being sent from portal conversation cards on iOS",
-      "Corrected RPLY icon size on macOS Sonoma so it displays consistently with other apps in the Dock and System Settings"
-    ],
-    "title" : "Friends Graph Window & Polish Updates",
-    "date" : "2025-11-27",
     "images" : [
       "https:\/\/nox-devices.github.io\/nox-public\/Mac\/RPLY\/release-notes\/media\/pr1209_10.png",
       "https:\/\/nox-devices.github.io\/nox-public\/Mac\/RPLY\/release-notes\/media\/pr1209_3.png"
     ],
+    "date" : "2025-11-27",
+    "features" : [
+      "Open Friends Graph in a dedicated resizable window to see your top 10 most-messaged contacts with improved tooltips",
+      "Enhanced chart performance with better contact name resolution and smoother interactions"
+    ],
     "version" : "1.16.29",
+    "title" : "Friends Graph Window & Polish Updates",
+    "fixes" : [
+      "Fixed duplicate messages being sent from portal conversation cards on iOS",
+      "Corrected RPLY icon size on macOS Sonoma so it displays consistently with other apps in the Dock and System Settings"
+    ],
     "description" : "Dive deeper into your messaging patterns with the new expandable Friends Graph window, showing your top contacts in a beautiful dedicated view. We've also squashed some annoying bugs on iOS and macOS to keep your experience smooth and polished."
   },
   {
-    "version" : "1.16.28",
-    "date" : "2025-11-27",
-    "title" : "Smoother, Faster, More Reliable",
+    "features" : [
+      "Single-click now instantly focuses the reply composer—no more double-clicking to start typing",
+      "Double-click any conversation to quickly expand it, matching standard macOS behavior",
+      "Press Escape to deselect conversations consistently, no matter how you navigated to them"
+    ],
     "fixes" : [
       "Fixed missing contact names and photos during onboarding and throughout the app",
       "Reply generation progress indicator no longer gets stuck when generation fails",
@@ -355,37 +357,39 @@
       "Resolved issue where very long messages (3,200+ characters) caused the app to get stuck processing embeddings",
       "Improved keyboard navigation and conversation selection reliability"
     ],
-    "features" : [
-      "Single-click now instantly focuses the reply composer—no more double-clicking to start typing",
-      "Double-click any conversation to quickly expand it, matching standard macOS behavior",
-      "Press Escape to deselect conversations consistently, no matter how you navigated to them"
-    ],
+    "title" : "Smoother, Faster, More Reliable",
+    "date" : "2025-11-27",
+    "version" : "1.16.28",
     "description" : "This release focuses on making RPLY feel snappier and more polished. We've fixed several annoying bugs that affected contact names, reply generation, and overall performance. Plus, we've made everyday interactions like clicking to compose and navigating conversations feel more natural and responsive."
   },
   {
-    "fixes" : [
-      "Fixed arrow key navigation that would stop working after closing message details",
-      "Resolved issues where chat conversations wouldn't update properly",
-      "Eliminated animation lag and visual flickering when expanding messages"
-    ],
+    "title" : "Smoother, Faster, More Reliable Messaging",
+    "description" : "This release focuses on making RPLY feel incredibly smooth and responsive. We've eliminated scroll lag, fixed annoying keyboard navigation issues, and made the app smarter at detecting your contact information. Plus, animations now feel buttery smooth throughout the app.",
+    "version" : "1.16.27",
     "features" : [
       "Dramatically improved scrolling performance by optimizing hover effects in conversations",
       "Smoother animations when opening and closing expanded message views",
       "Better detection of your phone numbers and email addresses for more accurate account setup"
     ],
-    "title" : "Smoother, Faster, More Reliable Messaging",
-    "description" : "This release focuses on making RPLY feel incredibly smooth and responsive. We've eliminated scroll lag, fixed annoying keyboard navigation issues, and made the app smarter at detecting your contact information. Plus, animations now feel buttery smooth throughout the app.",
-    "version" : "1.16.27",
+    "fixes" : [
+      "Fixed arrow key navigation that would stop working after closing message details",
+      "Resolved issues where chat conversations wouldn't update properly",
+      "Eliminated animation lag and visual flickering when expanding messages"
+    ],
     "date" : "2025-11-23"
   },
   {
-    "version" : "1.16.26",
-    "title" : "Smoother, Faster, More Polished",
     "images" : [
       "https:\/\/nox-devices.github.io\/nox-public\/Mac\/RPLY\/release-notes\/media\/pr1135_1.jpg",
       "https:\/\/nox-devices.github.io\/nox-public\/Mac\/RPLY\/release-notes\/media\/pr1135_2.jpg"
     ],
-    "description" : "This release is all about making RPLY feel incredible to use. We've completely revamped scrolling performance so your conversation list glides smoothly even with hundreds of messages, redesigned the home screen with beautiful new animations and layouts, and polished dozens of interactions throughout the app. Everything just feels snappier and more refined.",
+    "features" : [
+      "Redesigned home screen with interactive background effects, new header bar, and time filter chips",
+      "Silky-smooth scrolling through your conversation list, even with thousands of messages",
+      "Enhanced floating window animations that feel more natural and responsive",
+      "Improved inbox zero state with clearer call-to-action messaging",
+      "New connection error display with detailed troubleshooting instructions"
+    ],
     "fixes" : [
       "Fixed app launch now showing proper loading state instead of empty inbox",
       "Improved close button and tap-to-dismiss interactions on expanded messages",
@@ -393,82 +397,83 @@
       "Fixed minor UI freeze caused by 3D text animations",
       "Enhanced privacy by removing sensitive information from analytics events"
     ],
+    "title" : "Smoother, Faster, More Polished",
     "date" : "2025-11-21",
-    "features" : [
-      "Redesigned home screen with interactive background effects, new header bar, and time filter chips",
-      "Silky-smooth scrolling through your conversation list, even with thousands of messages",
-      "Enhanced floating window animations that feel more natural and responsive",
-      "Improved inbox zero state with clearer call-to-action messaging",
-      "New connection error display with detailed troubleshooting instructions"
-    ]
+    "version" : "1.16.26",
+    "description" : "This release is all about making RPLY feel incredible to use. We've completely revamped scrolling performance so your conversation list glides smoothly even with hundreds of messages, redesigned the home screen with beautiful new animations and layouts, and polished dozens of interactions throughout the app. Everything just feels snappier and more refined."
   },
   {
+    "images" : [
+      "https:\/\/nox-devices.github.io\/nox-public\/Mac\/RPLY\/release-notes\/media\/pr1155_2.jpg"
+    ],
     "version" : "1.16.25",
-    "title" : "Privacy, Performance & Polish",
     "fixes" : [
       "Fixed iMessage floating windows stuttering and hanging when moving or resizing",
       "Conversations now update properly in real-time without getting stuck",
       "Local AI model toggle no longer triggers unnecessary message re-indexing",
       "Removed unnecessary commentary from AI responses for cleaner conversations"
     ],
+    "title" : "Privacy, Performance & Polish",
     "date" : "2025-11-19",
+    "description" : "This release puts you in control with better privacy protection and delivers a noticeably smoother experience. We've squashed several annoying bugs, improved iMessage window performance, and made sure your privacy settings are actually respected from the moment you start using RPLY.",
     "features" : [
       "Enhanced app update experience with clearer notifications and smoother installation",
       "Your 'Maximum Privacy' choice during onboarding is now fully enforced across all analytics"
-    ],
-    "description" : "This release puts you in control with better privacy protection and delivers a noticeably smoother experience. We've squashed several annoying bugs, improved iMessage window performance, and made sure your privacy settings are actually respected from the moment you start using RPLY.",
-    "images" : [
-      "https:\/\/nox-devices.github.io\/nox-public\/Mac\/RPLY\/release-notes\/media\/pr1155_2.jpg"
     ]
   },
   {
-    "features" : [
-      "Double-click images to view them in a dedicated full-screen viewer",
-      "Double-click videos to play them in a focused player window"
-    ],
-    "version" : "1.16.24",
-    "title" : "Enhanced Media Viewing & Stability Fixes",
-    "date" : "2025-11-17",
     "fixes" : [
       "Fixed app crashes that could occur when scrolling through conversations",
       "Resolved an issue that created duplicate NOX contacts",
       "Improved overall app stability and performance"
     ],
-    "description" : "We've made viewing your photos and videos even better! Double-click any image or video in your conversations to open it in a full, distraction-free viewer. Plus, we've squashed several bugs to make RPLY more stable and reliable than ever."
+    "features" : [
+      "Double-click images to view them in a dedicated full-screen viewer",
+      "Double-click videos to play them in a focused player window"
+    ],
+    "date" : "2025-11-17",
+    "version" : "1.16.24",
+    "description" : "We've made viewing your photos and videos even better! Double-click any image or video in your conversations to open it in a full, distraction-free viewer. Plus, we've squashed several bugs to make RPLY more stable and reliable than ever.",
+    "title" : "Enhanced Media Viewing & Stability Fixes"
   },
   {
+    "date" : "2025-11-15",
     "version" : "1.16.23",
-    "title" : "Enhanced Contact Support & Performance Boost",
+    "description" : "We've made it easier to connect with your contacts by adding phone number support alongside email addresses. We've also streamlined the app by removing outdated code, making RPLY faster and more reliable than ever.",
     "features" : [
       "Connect with contacts using phone numbers in addition to email addresses"
     ],
-    "date" : "2025-11-15",
-    "description" : "We've made it easier to connect with your contacts by adding phone number support alongside email addresses. We've also streamlined the app by removing outdated code, making RPLY faster and more reliable than ever.",
+    "title" : "Enhanced Contact Support & Performance Boost",
     "fixes" : [
       "Resolved chat functionality issues to ensure smooth messaging",
       "Improved app performance by removing outdated interface code"
     ]
   },
   {
-    "images" : [
-      "https:\/\/nox-devices.github.io\/nox-public\/Mac\/RPLY\/release-notes\/media\/pr1120_3.jpg"
-    ],
-    "version" : "1.16.22",
-    "title" : "Faster Launch & Rock-Solid Stability",
+    "date" : "2025-11-14",
+    "description" : "RPLY is now faster and more reliable than ever. We've significantly improved app launch times and squashed several crashes that could occur during onboarding and everyday use. This update is all about making your messaging experience smoother and more dependable.",
     "fixes" : [
       "Fixed crash that could occur when viewing the reply tutorial during onboarding",
       "Resolved multiple stability issues that caused unexpected app crashes",
       "Fixed crash in sidebar navigation on certain interactions",
       "Improved thread safety to prevent rare crashes when dismissing messages"
     ],
-    "description" : "RPLY is now faster and more reliable than ever. We've significantly improved app launch times and squashed several crashes that could occur during onboarding and everyday use. This update is all about making your messaging experience smoother and more dependable.",
+    "images" : [
+      "https:\/\/nox-devices.github.io\/nox-public\/Mac\/RPLY\/release-notes\/media\/pr1120_3.jpg"
+    ],
+    "title" : "Faster Launch & Rock-Solid Stability",
+    "version" : "1.16.22",
     "features" : [
       "Faster app launch with optimized startup performance"
-    ],
-    "date" : "2025-11-14"
+    ]
   },
   {
     "date" : "2025-11-13",
+    "features" : [
+      "React to messages with tapbacks on macOS (❤️, 👍, 👎, 😂, and more) with full iMessage sync",
+      "Dismiss individual chats in the 'No response needed' section with new close buttons on each card",
+      "AI responses now have temporal awareness for more contextually relevant suggestions"
+    ],
     "fixes" : [
       "Significantly reduced CPU usage by optimizing menu bar animations and updates",
       "Fixed CloudKit sync conflicts that caused duplicate message uploads",
@@ -478,85 +483,91 @@
       "Group chats now open correctly in Messages and load properly on first view",
       "Improved floating stats overlay stability and positioning"
     ],
-    "features" : [
-      "React to messages with tapbacks on macOS (❤️, 👍, 👎, 😂, and more) with full iMessage sync",
-      "Dismiss individual chats in the 'No response needed' section with new close buttons on each card",
-      "AI responses now have temporal awareness for more contextually relevant suggestions"
-    ],
+    "title" : "Tapbacks, Performance Boosts & Better Sync",
     "images" : [
       "https:\/\/nox-devices.github.io\/nox-public\/Mac\/RPLY\/release-notes\/media\/pr1115_2.jpg"
     ],
-    "title" : "Tapbacks, Performance Boosts & Better Sync",
-    "version" : "1.16.21",
-    "description" : "This release brings native tapback reactions to macOS—just like iMessage! We've also dramatically improved CPU usage to keep RPLY running smoothly in the background, and fixed several sync issues to ensure your messages stay up-to-date across all devices."
+    "description" : "This release brings native tapback reactions to macOS—just like iMessage! We've also dramatically improved CPU usage to keep RPLY running smoothly in the background, and fixed several sync issues to ensure your messages stay up-to-date across all devices.",
+    "version" : "1.16.21"
   },
   {
-    "images" : [
-      "https:\/\/nox-devices.github.io\/nox-public\/Mac\/RPLY\/release-notes\/media\/pr1074_1.png"
-    ],
-    "description" : "This update brings major performance improvements that make RPLY feel snappier than ever, especially when messages are flying in. We've also added beautiful daily-rotating inbox backgrounds to make your empty inbox a little more delightful, plus sharing improvements for iOS users.",
     "features" : [
       "Daily rotating background images when your inbox is empty—31 beautiful designs to discover",
       "Share message content directly from iOS with improved UI",
       "Enhanced onboarding experience with animated contact orbit"
     ],
-    "version" : "1.16.20",
-    "date" : "2025-11-04",
-    "title" : "Faster, Smoother, More Beautiful",
+    "description" : "This update brings major performance improvements that make RPLY feel snappier than ever, especially when messages are flying in. We've also added beautiful daily-rotating inbox backgrounds to make your empty inbox a little more delightful, plus sharing improvements for iOS users.",
     "fixes" : [
       "Dramatically improved performance when receiving many messages at once—no more lag during message bursts",
       "10x faster build times for development (better app stability)",
       "Fixed session verification error that could occur after purchase",
       "CloudKit sync now starts automatically for more reliable message syncing",
       "iMessage contacts stay up-to-date automatically"
+    ],
+    "version" : "1.16.20",
+    "date" : "2025-11-04",
+    "title" : "Faster, Smoother, More Beautiful",
+    "images" : [
+      "https:\/\/nox-devices.github.io\/nox-public\/Mac\/RPLY\/release-notes\/media\/pr1074_1.png"
     ]
   },
   {
-    "features" : [
-      "Calendar events can now be sent automatically to save you time",
-      "Crash reports now include version information to help us diagnose issues faster"
-    ],
+    "description" : "This update focuses on making RPLY more reliable and easier to troubleshoot. We've fixed several interface quirks that could cause popups to get stuck, improved how the app tracks conversations, and enhanced our crash reporting so we can fix issues faster. Plus, we've laid the groundwork for some exciting integrations coming soon.",
+    "title" : "Smoother Experience & Better Diagnostics",
     "version" : "1.16.19",
-    "date" : "2025-10-30",
     "fixes" : [
       "Fixed cursor popups that could appear unexpectedly or get stuck when hovering quickly",
       "Resolved an issue where the floating window wouldn't properly track the active conversation",
       "Improved reliability when switching between chats in the floating window"
     ],
-    "description" : "This update focuses on making RPLY more reliable and easier to troubleshoot. We've fixed several interface quirks that could cause popups to get stuck, improved how the app tracks conversations, and enhanced our crash reporting so we can fix issues faster. Plus, we've laid the groundwork for some exciting integrations coming soon.",
-    "title" : "Smoother Experience & Better Diagnostics"
+    "date" : "2025-10-30",
+    "features" : [
+      "Calendar events can now be sent automatically to save you time",
+      "Crash reports now include version information to help us diagnose issues faster"
+    ]
   },
   {
-    "date" : "2025-10-26",
-    "features" : [
-      "Your spaces and line breaks now stay exactly where you put them while typing messages",
-      "Conversation list automatically hides empty threads and messages you've already sent"
-    ],
     "fixes" : [
       "Fixed iOS app icon validation issue that could prevent App Store updates",
       "Improved reliability when syncing settings across your devices",
       "Better device connectivity monitoring to keep everything in sync"
     ],
+    "date" : "2025-10-26",
     "title" : "Smoother Typing & Smarter Conversations",
-    "description" : "This update makes messaging feel more natural with improved text editing that preserves your formatting while you type. We've also cleaned up your conversation list by automatically filtering out empty threads and ones you've already responded to, so you can focus on what matters.",
-    "version" : "1.16.18"
+    "version" : "1.16.18",
+    "features" : [
+      "Your spaces and line breaks now stay exactly where you put them while typing messages",
+      "Conversation list automatically hides empty threads and messages you've already sent"
+    ],
+    "description" : "This update makes messaging feel more natural with improved text editing that preserves your formatting while you type. We've also cleaned up your conversation list by automatically filtering out empty threads and ones you've already responded to, so you can focus on what matters."
   },
   {
-    "description" : "We've squashed a critical bug that was causing the app to crash unexpectedly. This update focuses on keeping your conversations flowing smoothly, especially during high-activity periods when events were flooding in.",
+    "title" : "Stability Fix: Smoother Messaging Experience",
+    "date" : "2025-10-23",
     "fixes" : [
       "Fixed crashes caused by excessive event notifications flooding the app",
       "Improved overall app stability during heavy usage"
     ],
-    "title" : "Stability Fix: Smoother Messaging Experience",
-    "version" : "1.16.17",
-    "date" : "2025-10-23",
     "features" : [
 
-    ]
+    ],
+    "version" : "1.16.17",
+    "description" : "We've squashed a critical bug that was causing the app to crash unexpectedly. This update focuses on keeping your conversations flowing smoothly, especially during high-activity periods when events were flooding in."
   },
   {
     "description" : "This release brings full WhatsApp integration with group chat support, making RPLY work seamlessly across iMessage and WhatsApp. We've massively improved scrolling performance, polished the Portal UI with better keyboard shortcuts and animations, and squashed bugs that caused conversations to appear empty or the app to freeze.",
+    "version" : "1.16.16",
     "date" : "2025-10-23",
+    "features" : [
+      "WhatsApp integration with full group chat support and smart auto-reconnection",
+      "New multi-reply interface lets you respond to multiple messages at once",
+      "Portal UI redesign with improved keyboard navigation, better animations, and landscape view",
+      "Contact trends chart now highlights people when you hover over them",
+      "Per-contact formatting preferences so you can customize reply styles for each person",
+      "Improved onboarding experience with new welcome screens and better reliability",
+      "Calendar event detection now works more accurately with structured output",
+      "iOS app improvements with better sync and UI polish"
+    ],
     "fixes" : [
       "Fixed conversations sometimes appearing completely empty",
       "Resolved 144-second freeze that made the app unresponsive",
@@ -571,20 +582,11 @@
       "Resolved app icon randomly disappearing from menu bar",
       "Fixed analytics tracking being unreliable after recent updates"
     ],
-    "version" : "1.16.16",
-    "title" : "WhatsApp Support, Portal Polish & Performance Boost",
-    "features" : [
-      "WhatsApp integration with full group chat support and smart auto-reconnection",
-      "New multi-reply interface lets you respond to multiple messages at once",
-      "Portal UI redesign with improved keyboard navigation, better animations, and landscape view",
-      "Contact trends chart now highlights people when you hover over them",
-      "Per-contact formatting preferences so you can customize reply styles for each person",
-      "Improved onboarding experience with new welcome screens and better reliability",
-      "Calendar event detection now works more accurately with structured output",
-      "iOS app improvements with better sync and UI polish"
-    ]
+    "title" : "WhatsApp Support, Portal Polish & Performance Boost"
   },
   {
+    "description" : "We've supercharged RPLY with major performance improvements that make the app feel snappier than ever. This release fixes dozens of issues affecting loading times, search, messaging, and settings—plus adds new statistics to help you visualize your messaging habits. Everything just works better now.",
+    "version" : "1.16.8",
     "features" : [
       "New statistics dashboard shows deeper insights into your messaging patterns and time saved",
       "Enhanced onboarding experience with restored tutorial flow for new users",
@@ -592,8 +594,6 @@
       "Better group chat experience with contact names now displayed on messages",
       "Clickable links in messages now work reliably"
     ],
-    "date" : "2025-07-26",
-    "title" : "Faster, Smoother, More Reliable",
     "fixes" : [
       "Dramatically reduced app loading time—conversations appear much faster",
       "Fixed search panel crashes and improved animations",
@@ -606,16 +606,15 @@
       "Improved onboarding flow that could get stuck",
       "Fixed missing chat threads and conversation display issues"
     ],
-    "description" : "We've supercharged RPLY with major performance improvements that make the app feel snappier than ever. This release fixes dozens of issues affecting loading times, search, messaging, and settings—plus adds new statistics to help you visualize your messaging habits. Everything just works better now.",
-    "version" : "1.16.8"
+    "title" : "Faster, Smoother, More Reliable",
+    "date" : "2025-07-26"
   },
   {
-    "features" : [
-      "Redesigned Settings interface with improved visual polish",
-      "Conversations now automatically mark as read when you send a message",
-      "New updater banner to keep you informed about the latest improvements"
+    "images" : [
+      "https:\/\/nox-devices.github.io\/nox-public\/Mac\/RPLY\/release-notes\/media\/pr549_1.jpg"
     ],
-    "version" : "1.16.2",
+    "title" : "Smoother Group Chats & Polish",
+    "date" : "2025-07-08",
     "fixes" : [
       "Fixed missing contact names in group chat messages",
       "Fixed group chats not appearing in Reply Assistant",
@@ -628,11 +627,12 @@
       "Fixed onboarding accessibility dialogue appearing behind the main window",
       "Fixed scheduled message senders not loading correctly"
     ],
-    "date" : "2025-07-08",
-    "images" : [
-      "https:\/\/nox-devices.github.io\/nox-public\/Mac\/RPLY\/release-notes\/media\/pr549_1.jpg"
+    "features" : [
+      "Redesigned Settings interface with improved visual polish",
+      "Conversations now automatically mark as read when you send a message",
+      "New updater banner to keep you informed about the latest improvements"
     ],
-    "description" : "We've given RPLY a major tune-up with this release! Group chats now display contact names correctly and work more reliably, while the Settings screen got a beautiful visual refresh. Plus, we've squashed bugs across messages, search, and onboarding to make your experience smoother than ever.",
-    "title" : "Smoother Group Chats & Polish"
+    "version" : "1.16.2",
+    "description" : "We've given RPLY a major tune-up with this release! Group chats now display contact names correctly and work more reliably, while the Settings screen got a beautiful visual refresh. Plus, we've squashed bugs across messages, search, and onboarding to make your experience smoother than ever."
   }
 ]
