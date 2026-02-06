@@ -28,7 +28,8 @@
     ],
     "date" : "2026-02-05",
     "images" : [
-
+      "https:\/\/nox-devices.github.io\/nox-public\/Mac\/RPLY\/release-notes\/media\/v1_17_16_1770348631.png",
+      "https:\/\/nox-devices.github.io\/nox-public\/Mac\/RPLY\/release-notes\/media\/v1_17_16_1770348631_1.png"
     ],
     "description" : "RPLY now sees your missed calls and weaves them into the messaging interface. Plus, your contacts can now instantly sync with Attio CRM.",
     "title" : "Call History, Attio CRM Integration"
@@ -66,7 +67,7 @@
       1433
     ],
     "images" : [
-      "https:\/\/nox-devices.github.io\/nox-public\/Mac\/RPLY\/release-notes\/media\/v1_17_14_onboarding.mov"
+      "https:\/\/nox-devices.github.io\/nox-public\/Mac\/RPLY\/release-notes\/media\/v1_17_14_onboarding.gif"
     ]
   },
   {
