@@ -5,5 +5,7 @@
       "Fixed onboarding by preventing AI reply generation for NOX support chats"
     ],
     "prs": [1433],
-    "images": []
+    "images": [
+      "https://nox-devices.github.io/nox-public/Mac/RPLY/release-notes/media/v1_17_14_onboarding.mov"
+    ]
   }
