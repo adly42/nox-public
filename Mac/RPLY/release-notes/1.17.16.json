@@ -1,4 +1,15 @@
 {
+  "version" : "1.17.16",
+  "title" : "Call History, Attio CRM Integration",
+  "fixes" : [
+    "re-enable platform styling and add draft persistence tracking",
+    "propagate outgoing message updates + flush draft on blur",
+    "restore chat bubble platform styling",
+    "improved ui for inbox tab bar + general fixes",
+    "generate contact summary in the background",
+    "contacts knowledge list filtering",
+    "update inbox tab bar ui"
+  ],
   "prs" : [
     1455,
     1450,
@@ -11,7 +22,12 @@
     1441,
     1439
   ],
-  "title" : "Call History, Attio CRM Integration",
+  "description" : "RPLY now sees your missed calls and weaves them into the messaging interface. Plus, your contacts can now instantly sync with Attio CRM.",
+  "date" : "2026-02-05",
+  "features" : [
+    "add missed call badge with smart filtering",
+    "add Attio integration for CRM syncing"
+  ],
   "images" : [
     "https:\/\/github.com\/user-attachments\/assets\/a878dfdb-e5dd-4962-b110-7e6264db6ef5",
     "https:\/\/github.com\/user-attachments\/assets\/c6263cdd-18b0-4618-be13-7a15172e8cb5",
@@ -19,21 +35,5 @@
     "https:\/\/github.com\/user-attachments\/assets\/83f585c9-324a-4423-979c-8ba3e8eeb8c2",
     "https:\/\/nox-devices.github.io\/nox-public\/Mac\/RPLY\/release-notes\/media\/v1_17_16_1770348631.png",
     "https:\/\/nox-devices.github.io\/nox-public\/Mac\/RPLY\/release-notes\/media\/v1_17_16_1770348631_1.png"
-  ],
-  "version" : "1.17.16",
-  "date" : "2026-02-05",
-  "description" : "RPLY now sees your missed calls and weaves them into the messaging interface. Plus, your contacts can now instantly sync with Attio CRM.",
-  "fixes" : [
-    "re-enable platform styling and add draft persistence tracking",
-    "propagate outgoing message updates + flush draft on blur",
-    "restore chat bubble platform styling",
-    "improved ui for inbox tab bar + general fixes",
-    "generate contact summary in the background",
-    "contacts knowledge list filtering",
-    "update inbox tab bar ui"
-  ],
-  "features" : [
-    "add missed call badge with smart filtering",
-    "add Attio integration for CRM syncing"
   ]
 }
