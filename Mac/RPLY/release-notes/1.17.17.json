@@ -1,0 +1,38 @@
+{
+  "version" : "1.17.17",
+  "prs" : [
+    1468,
+    1466,
+    1461,
+    1458,
+    1460,
+    1459,
+    1457,
+    1455,
+    1450,
+    1452,
+    1451,
+    1449,
+    1446,
+    1444,
+    1440,
+    1441,
+    1439
+  ],
+  "fixes" : [
+    "Demo walkthrough tips now work in two-pane layout",
+    "Messages send from all your sender IDs, not just the first",
+    "Inbox editing feels instant instead of laggy",
+    "Spam and automated convos filtered out of inbox"
+  ],
+  "images" : [
+    "https:\/\/nox-devices.github.io\/nox-public\/Mac\/RPLY\/release-notes\/media\/v1_17_17_1771207727.gif"
+  ],
+  "features" : [
+    "Mail-style UI for easy sorting and viewing",
+    "Addition of X, LinkedIn, Telegram, Email, Slack, Instagram in additon to iMessage and Whatsapp"
+  ],
+  "date" : "2026-02-15",
+  "title" : "RPLY 2.0 & Connect (X, LinkedIn, Email, Instagram and more)",
+  "description" : "Messages unify across your 8 inboxes and 10x faster thanks to parallel fetching. We also rebuilt the sidebar with a cleaner Mail-style design for easy access."
+}
