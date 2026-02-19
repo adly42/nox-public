@@ -1,13 +1,13 @@
 {
-  "description" : "Messages unify across your eight inboxes. We also rebuilt the sidebar with a cleaner Mail-style design for easy access.",
-  "images" : [
-    "https:\/\/nox-devices.github.io\/nox-public\/Mac\/RPLY\/release-notes\/media\/v1_17_17_1771224295.gif"
+  "description": "Messages unify across your eight inboxes. We also rebuilt the sidebar with a cleaner Mail-style design for easy access.",
+  "images": [
+    "https://nox-devices.github.io/nox-public/Mac/RPLY/release-notes/media/v2_0_0_1771224295.gif"
   ],
-  "features" : [
+  "features": [
     "Transformed UI into easy sorting and viewing inbox",
     "Added X, LinkedIn, Telegram, Email, Slack, Instagram in additon to iMessage and Whatsapp"
   ],
-  "prs" : [
+  "prs": [
     1470,
     1468,
     1466,
@@ -27,10 +27,8 @@
     1441,
     1439
   ],
-  "title" : "RPLY 2.0 (Adding X, Slack, LinkedIn...)",
-  "version" : "2.0.0",
-  "fixes" : [
-
-  ],
-  "date" : "2026-02-15"
+  "title": "RPLY 2.0 (Adding X, Slack, LinkedIn...)",
+  "version": "2.0.0",
+  "fixes": [],
+  "date": "2026-02-15"
 }
