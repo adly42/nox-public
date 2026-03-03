@@ -1,5 +1,29 @@
 {
+  "features" : [
+    "Telegram login with OTP—no more QR codes",
+    "Shimmer overlays guide you through permissions setup",
+    "Reset app data button when you need a fresh start",
+    "Priority filters and contact categories now persist between launches",
+    "Group chat support for WhatsApp with proper names and avatars",
+    "RPLY MCP available for all agents"
+  ],
+  "date" : "2026-03-03",
+  "title" : "RPLY MCP & Platform Improvements",
+  "fixes" : [
+    "X DMs no longer vanish, go stale, or pick the wrong database",
+    "WhatsApp QR spinner no longer hangs forever",
+    "Keyboard shortcuts work on first press in two-pane layout",
+    "Dark mode tapback reactions actually visible now",
+    "Conversation switches don't freeze the UI mid-transition",
+    "Ghost\/Always Ignore feature works again",
+    "Tab titles stop disappearing when switching via keyboard",
+    "Instagram stays logged in after server restarts"
+  ],
+  "description" : "RPLY MCP is here to work with all your agents.  We also squashed a few bugs to make platforms significantly more performant.",
+  "version" : "2.1.0",
   "prs" : [
+    1598,
+    1599,
     1589,
     1588,
     1586,
@@ -69,27 +93,5 @@
     1440,
     1441,
     1439
-  ],
-  "description" : "The RPLY MCP is here and available to all desktop agents. We also squashed quite a few platform bugs that made the",
-  "date" : "2026-03-02",
-  "title" : "RPLY MCP & Platforms",
-  "version" : "2.1.0",
-  "fixes" : [
-    "X DMs no longer vanish, go stale, or show empty",
-    "WhatsApp QR spinner no longer hangs forever",
-    "Keyboard shortcuts work on first press in two-pane layout",
-    "Ghost (Always Ignore) actually ignores now",
-    "Group chat names and avatars display correctly",
-    "Dark mode tapback reactions are readable again",
-    "Contact priorities and category moves persist across launches",
-    "Conversations switch without layout jitter or stuck states",
-    "Runs cooler with multi-GB memory spikes eliminated"
-  ],
-  "features" : [
-    "Telegram login with OTP verification, no browser needed",
-    "Disable connected platforms without disconnecting them",
-    "Persist your priority filters between launches",
-    "Reset app data from settings when things get weird",
-    "RPLY MCP available to all agents"
   ]
 }
